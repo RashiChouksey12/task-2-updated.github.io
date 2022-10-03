@@ -519,6 +519,7 @@ input:placeholder-shown {
     border-left: 7px solid #76c38f;
     border-bottom: 7px solid #76c38f;
     transform: rotate(45deg);
+    border-radius: 7px 0 7px 0px;
 
 }
 
@@ -528,6 +529,7 @@ input:placeholder-shown {
     border-left: 17px solid transparent;
     border-bottom: 17px solid transparent;
     transform: rotate(45deg);
+    border-radius: 7px 0 7px 0px;
 }
 
 .arrow-buttons {
