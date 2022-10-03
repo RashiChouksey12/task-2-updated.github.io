@@ -1,0 +1,146 @@
+@media (max-width:800px) {
+
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 40px 0px 0 10px;
+    }
+
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 110px;
+        left: 0px;
+    }
+
+    .nav>.nav-links li {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+
+    /* banner */
+    .cursus-content .left-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cursus-content .left-content h1 {
+        width: 100%;
+    }
+
+    .cursus-content .left-content p {
+        width: 100%;
+    }
+
+    .cursus-content .right-content {
+        width: 350px;
+        height: 350px;
+        margin-top: 40px;
+        margin: 25px auto;
+    }
+
+    .Cursus .cursus-content {
+        display: block;
+        text-align: center;
+        /* position: relative; */
+    }
+
+    /* .service-cards */
+    .service-cards {
+        justify-content: center;
+    }
+
+    .service-card {
+        width: 48%;
+    }
+
+    .LATEST-WORK h1 {
+        width: 50%;
+    }
+
+    /* .work-card  */
+    .work-card {
+        width: 45%;
+    }
+
+    /* footer */
+
+    .container.top-footer-content {
+        display: block;
+        text-align: center;
+    }
+
+    .top-footer .inner-container {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .contact-us-footer button {
+        float: none;
+    }
+
+    .arrow-buttons {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+
+    /* 
+
+    /* work cards */
+    .work-card {
+        width: 100%;
+    }
+
+    /* footer */
+
+    .bootom-footer-content {
+        display: block;
+        text-align: center;
+    }
+
+    .os-template.copyright {
+        padding: 20px 0;
+    }
+
+}
