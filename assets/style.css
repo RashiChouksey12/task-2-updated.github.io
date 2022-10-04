@@ -47,6 +47,7 @@ header {
     font-size: 28px;
     line-height: 28px;
     color: #ffffff;
+    font-weight: 600;
 }
 
 .nav-title p {
@@ -456,7 +457,7 @@ button.readmore {
     border-radius: 7px;
     background-color: #232323;
     border: none;
-    margin: 0px 0 5px 0px;
+    margin: 0px 0 10px 0px;
     font-family: 'Noto Serif Georgian', serif;
     cursor: pointer;
     resize: none;
@@ -482,7 +483,6 @@ button.readmore {
     font-size: 12px;
     line-height: 14px;
     color: #303030;
-    margin-top: 5px;
     border: none;
     font-family: 'Noto Serif Georgian', serif;
     font-weight: bold;
