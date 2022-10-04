@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@300&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -43,10 +42,6 @@ header {
     padding: 40px 0;
 }
 
-.nav .nav-header {
-    /* display: inline; */
-}
-
 .nav .nav-header .nav-title {
     display: inline-block;
     font-size: 28px;
@@ -70,19 +65,20 @@ header {
     font-size: 18px;
     display: flex;
     gap: 30px;
-
     align-items: center;
 
 }
 
 .nav .nav-links li {
-    padding: 10px 10px;
+   padding: 5px 10px 10px 10px;
+   cursor: pointer;
 }
 
 .nav .nav-links li:hover {
     background-color: #76c38f;
     font-weight: bold;
     border-radius: 10px;
+    transition-duration: 0.4s;
 }
 
 .nav .nav-links a {
@@ -140,6 +136,7 @@ button.readmore {
     width: 142px;
     font-family: 'Noto Serif Georgian', serif;
     text-align: center;
+    cursor: pointer;
 }
 
 .cursus-content .right-content {
@@ -185,19 +182,36 @@ button.readmore {
 .service-card {
     width: 23.7%;
     background-color: #fff;
-    /* margin-right: 15px; */
+  cursor: pointer;
     text-align: center;
     padding: 20px 30px;
 }
-
-.service-card:nth-of-type(2) {
+.service-card:hover{
+    transition-duration: 0.4s;
     background-color: #76c38f;
-}
 
-.bg-white {
+}
+.service-card:hover .img-box{ 
+    background-color: #fff;
+    color: #000;
+    transition-duration: 0.4s;
+}
+.service-card:hover h3 { 
+    transition-duration: 0.4s;
+    color: #fff ;
+}
+.service-card:hover P { 
+    transition-duration: 0.4s;
+    color: #fff ;
+}
+/* .service-card:nth-of-type(2) {
+    background-color: #76c38f;
+} */
+
+/* .bg-white {
     background-color: #fff !important;
     color: #000 !important;
-}
+} */
 
 .service-card:last-child {
     margin: 0;
@@ -215,9 +229,9 @@ button.readmore {
     font-weight: bold;
 }
 
-.service-card .img-box:nth-of-type(2) {
+/* .service-card .img-box:nth-of-type(2) {
     background-color: #fff;
-}
+} */
 
 .service-card h3 {
     font-size: 32px;
@@ -226,9 +240,9 @@ button.readmore {
     padding: 16px 0 22px 0;
 }
 
-.clr-white {
+/* .clr-white {
     color: #fff !important;
-}
+} */
 
 .service-card p {
     font-size: 12px;
@@ -251,8 +265,8 @@ button.readmore {
     background: #333333;
     margin: 0 auto;
     width: 30%;
-    padding: 20px;
-    border-radius: 25px;
+    padding: 10px;
+    border-radius: 11px;
 }
 
 .work-cards {
@@ -276,12 +290,24 @@ button.readmore {
     border: 5px solid #fff;
     font-weight: bold;
     width: 31.4%;
+    cursor: pointer;
 
 }
-
-.work-card:nth-of-type(5) {
+.work-card:hover{
+    transition-duration: 0.4s;
     border: 5px solid #76c38f;
 }
+.work-card:hover .caption{
+    display: none;
+    transition-duration: 0.4s;
+    
+   
+    
+}
+
+/* .work-card:nth-of-type(5) {
+    border: 5px solid #76c38f;
+} */
 
 .caption {
     width: 100%;
@@ -293,6 +319,7 @@ button.readmore {
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
+    display: block;
 }
 
 /* footer */
@@ -351,6 +378,7 @@ button.readmore {
 
 .From-the-blog .admin strong {
     color: #76c38f;
+    cursor: pointer;
 }
 
 .From-the-blog .date-time {
@@ -373,6 +401,7 @@ button.readmore {
     color: #76c38f;
     font-size: 13px;
     line-height: 16px;
+    cursor: pointer;
 
 }
 
@@ -410,10 +439,9 @@ button.readmore {
     padding: 0px 0 25px 0px;
     font-size: 13px;
     line-height: 21px;
-
 }
-
 .blog p strong {
+    cursor: pointer;
 
     color: #76c38f;
 }
@@ -431,13 +459,14 @@ button.readmore {
     margin: 0px 0 5px 0px;
     font-family: 'Noto Serif Georgian', serif;
     cursor: pointer;
+    resize: none;
 }
 
-input:placeholder-shown {
+/* input:placeholder-shown {
     font-size: 13px;
     line-height: 16px;
     color: #989898;
-}
+} */
 
 .contact-us-footer button {
     background-color: #0099ff;
@@ -445,7 +474,6 @@ input:placeholder-shown {
     float: left;
     padding: 7px 8px;
     cursor: pointer;
-    font-family: 'Noto Serif Georgian', serif;
     font-weight: bold;
     width: 75px;
     height: 35px;
@@ -456,7 +484,6 @@ input:placeholder-shown {
     color: #303030;
     margin-top: 5px;
     border: none;
-
     font-family: 'Noto Serif Georgian', serif;
     font-weight: bold;
 }
@@ -520,7 +547,7 @@ input:placeholder-shown {
     border-bottom: 7px solid #76c38f;
     transform: rotate(45deg);
     border-radius: 7px 0 7px 0px;
-
+   cursor: pointer;
 }
 
 #right {
@@ -530,6 +557,7 @@ input:placeholder-shown {
     border-bottom: 17px solid transparent;
     transform: rotate(45deg);
     border-radius: 7px 0 7px 0px;
+    cursor: pointer;
 }
 .arrow-buttons {
     display: flex;
